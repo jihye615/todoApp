@@ -2,7 +2,7 @@
 ---------------------
 ```
 npm install -g yarn
-yarn create react-app
-cd
+yarn create react-app todoApp
+cd todoApp
 yarn start
 ```
