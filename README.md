@@ -63,3 +63,5 @@ export default App;
 ---------------------
 
 
+customer A
+![캡처.jpg](./img/캡처.JPG)
