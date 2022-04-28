@@ -61,7 +61,16 @@ const App = () => {
 export default App;
 ```
 ---------------------
+# ul구상하기
+#### `TodoTemplate` : 화면을 가운데 정렬시켜 주며, 앱 타이틀(Todo List)을 보여 준다.
 
+![0.jpg](/img/0.JPG)
 
+#### `TodoInsert` : 새로운 항목을 입력하고 추가 할 수 있는 컴포넌트이다.
+![2.jpg](/img/2.JPG)
 
-![1.jpg](/img/1.JPG)
+#### `TodoListItem` : 각 할 일 항목에 대한 정보를 보여 주는 컴포넌트이다. 
+![3.jpg](/img/3.JPG)
+
+#### `TodoList` : todos 배열을 props로 받아 온 후, 이를 배열 내장 함수 map을 사용해서 여러 개의 TodoListItem 컴포넌트로 변환하여 보여준다. 
+![4.jpg](/img/4.JPG)
