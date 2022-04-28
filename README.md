@@ -344,6 +344,7 @@ const App = () => {
   ]);
 
   const nextId = useRef(4);
+   //onInsert함수 만들기
   const onInsert = useCallback(text => {
     const todo = {
       id : nextId.current,
