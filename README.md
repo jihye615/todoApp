@@ -524,6 +524,37 @@ const TodoListItem = ({ todo, onRemove, onToggle }) => {
 export default TodoListItem;
 ```
 
+-------------------
+# 리엑트파일 깃허브에 올리기
+### 터미널에 입력
+`yarn add gh-pages`
+### package.json 파일에서 homepage 추가
+`https://본인계정.github.io/생성한리퍼지스토리이름`
+```javascript
+"name": "darkmodeapp",
+"version": "0.1.0",
+"private": true,
+"homepage": "https://jihye615.github.io/todoApp",
+```
+### `package.json` 파일에서 `scripts` 추가
+```javascript
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+```
+### git 순서대로 올리기 
+`git status
+git add . 
+git status
+git commit -m "todolist만들기"
+git branch -M main
+git remote add origin //주소
+git push -u origin main
+
+### 마지막 터미널에서 `yarn deploy`
+`yarn deploy`
+
+
+
 
 
 
