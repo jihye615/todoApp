@@ -542,13 +542,13 @@ export default TodoListItem;
 "deploy": "gh-pages -d build"
 ```
 ### git 순서대로 올리기 
-`git status
-git add . 
-git status
-git commit -m "todolist만들기"
-git branch -M main
-git remote add origin //주소
-git push -u origin main
+    git status
+    git add . 
+    git status
+    git commit -m "todolist만들기"
+    git branch -M main
+    git remote add origin //주소
+    git push -u origin main
 
 ### 마지막 터미널에서 `yarn deploy`
 `yarn deploy`
