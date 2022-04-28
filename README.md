@@ -64,4 +64,4 @@ export default App;
 
 
 
-![캡처.jpg](/img/1.JPG)
+![1.jpg](/img/1.JPG)
